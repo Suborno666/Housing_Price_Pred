@@ -34,3 +34,6 @@ ENV/
 *.swo" > .gitignore
 
 includes/
+
+#excluding test.py for now
+/test.py
