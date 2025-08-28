@@ -15,12 +15,10 @@
 
 # print("SD: ",np.std(n))
 class test():
-    
-    def __init__ (self, name1, name2):
-        self.name1 = name1
-        self.name2 = name2
-        
-Name = test('Adam','Eve')
 
-print(Name.name1)
-print(Name.name2)
+    def __init__ (self,province = "Westeros"):
+        self.province = province
+        
+Name = test()
+
+print(Name.province)
